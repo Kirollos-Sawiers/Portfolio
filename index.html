@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Kirollos</title>
+  </head>
+
+  <body style="background-color: rgb(248, 248, 248)">
+    <section>
+      <div class="container">
+        <div class="shadow-sm rounded">
+          <ul class="nav d-flex justify-content-center align-items-center pb-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#about"> About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactme">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="text-center text-md-start py-5">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-center">
+          <div>
+            <h1>
+              <span style="color: rgb(255, 219, 57)">Welcom Dear,</span>
+              <br />
+              I'm Kirollos Sobhy
+            </h1>
+            <p class="text-muted lead py-3" style="font-weight: 500">
+              A front-end developer looking for exciting projects and new
+              opportunities and ready to take on your project.
+            </p>
+            <a href="#contactme"><button class="btn text-light" id="btn1">Let's Talk</button></a>
+          </div>
+          <div>
+            <i id="img1"
+              class="fa-solid fa-cloud d-none d-md-block px-2"
+              style="font-size: 25rem; color: rgb(255, 219, 57)"
+            ><img id="img2" src="./images/profile.png" alt="pp"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" style="background-color: rgb(255, 219, 57)">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-6 col-md-12 text-lg-start text-md-center">
+            <h1 id="service">Services I Offer</h1>
+            <p class="text-muted lead py-3" style="font-weight: 500">
+              Junior front end developer building and maintaining responsive
+              websites . I’m experienced in HTML, CSS , JavaScript; plus modern
+              libraries and frameworks.
+            </p>
+            <img
+              class="img-fluid w-50"
+              src="./images/service-img.svg"
+              alt="icon"
+            />
+          </div>
+          <div class="col-lg-6 col-md-12 text-lg-start text-md-center">
+            <div class="col">
+              <div class="col">
+                <hr />
+                <h6>01/</h6>
+                <h4>Figma & PSD to HTML & CSS & JavaScript </br> with Responsive Design</h4>
+              </div>
+              <div class="col">
+                <hr />
+                <h6>02/</h6>
+                <h4>Build website with React and it's packages</h4>
+              </div>
+              <div class="col">
+                <hr />
+                <h6>03/</h6>
+                <h4>Build mobile application with React Native</h4>
+              </div>
+              <div class="col">
+                <hr />
+                <h6>04/</h6>
+                <h4>Familiar with Firebase Authentication</br> and CRUD operations</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contactme">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-6 col-sm-12 text-lg-start text-sm-center">
+            <h1 id="service">Let's Discuss Your Project</h1>
+            <img
+            class="img-fluid w-50 mt-3"
+            src="./images/contact-me-img.svg"
+            alt="icon"
+          />
+          </div>
+          <div class="col-lg-6 col-sm-12 text-lg-start text-sm-center">
+            <form method="POST" action="mailto: kirollos.sawiers@gmail.com" 
+            enctype="multipart/form-data">
+              <div class="input-group py-5">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="email" class="form-control" placeholder="E-mail" aria-label="email" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group pb-5">
+                <span class="input-group-text"><i class="fa-regular fa-comment-dots"></i></span>
+                <textarea class="form-control" placeholder="Quick brief about your project" aria-label="With textarea"></textarea>
+              </div>
+              <a href=""><button class="btn mb-3" id="btn2">Send</button></a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center" style="background-color:rgb(255, 219, 57);">
+      <div class="container">
+        <p class="muted m-0">Copyright &COPY; 2022 Kirollos Sobhy</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
